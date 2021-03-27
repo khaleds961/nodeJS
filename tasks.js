@@ -70,6 +70,13 @@ function hello(){
   console.log('hello!')
 }
 
+/**
+ * prints "1-hello
+ *         2-quit
+ *         3-exit"
+ * This function is supposed to run when we type help 
+ * @returns {void}
+ */
 function help(){
   console.log('1-hello');
   console.log('2-quit');
